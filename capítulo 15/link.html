@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+     a{
+         color: red;
+         text-decoration: none;
+         font-weight: bold;
+     }
+     a:visited{
+         color: blue;
+         text-decoration: underline;
+     }
+     a:hover{
+         color: yellow;         
+     }
+     a:active{
+         color: green;
+     }
+     a::after {
+        content: "   ♠  ";
+     }
+    </style>
+</head>
+<body>
+    <h1>Personalizando links</h1>
+    <ul>
+        <li><a href="#" target="_blank" rel="noreferrer noopener">Repositorio Git Hub</a></li>
+        <li><a href="https://www.youtube.com" target="_blank" rel="noreferrer noopener">Canal do Youtube</a></li>
+        <li><a href="#" target="_blank" rel="noreferrer noopener">Site do Curso em Video</a></li>
+    </ul>
+</body>
+</html>
